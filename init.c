@@ -2,6 +2,7 @@
 
 extern char paTable[];
 extern char paTableLen;
+/* Just putting a comment in here to see what happens with GIT */
 
 void init(){
 	WDTCTL = WDTPW + WDTHOLD;                 // Stop WDT
